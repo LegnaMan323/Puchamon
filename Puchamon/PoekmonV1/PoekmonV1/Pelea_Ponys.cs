@@ -11,19 +11,22 @@ namespace PoekmonV1
         Puchamon pony1 = new Puchamon();
         Puchamon pony2 = new Puchamon();
 
-        public void Pony1()
+        public void Pony2()
         {
-            pony2.PAtk = 25;
+            pony2.PAtk = 15;
             pony2.PName = "Burbuja";
             pony2.PDef = 5;
             pony2.PLife = 100;
+            pony2.PTipo = "pegaso";
+
         }
-        public void Pony2()
+        public void Pony1()
         {
-            pony1.PAtk = 25;
+            pony1.PAtk = 15;
             pony1.PName = "Vellito";
             pony1.PDef = 5;
             pony1.PLife = 100;
+            pony1.PTipo = "unicornio";
         }
 
         public string P1name()
@@ -39,12 +42,20 @@ namespace PoekmonV1
         {
             int dañoTotal = pony1.PAtk - pony2.PDef;
             pony2.PLife -= dañoTotal;
+          
+            if (pony1.PTipo == "unicornio")
+            {
+                dañoTotal = dañoTotal + 5;
+                pony2.PLife -= dañoTotal;
+            }
+            
         }
 
         public void attack_Enemigo()
         {
-            int dañoTotal = pony2.PAtk - pony1.PDef;
+            int dañoTotal = pony2.PAtk  - pony1.PDef;
             pony1.PLife -= dañoTotal;
+            
         }
 
         public void defenderse()
@@ -59,19 +70,33 @@ namespace PoekmonV1
 
         public int vidaPony()
         {
+            if (pony1.PLife < 0)
+            {
+                pony1.PLife = 0;
+            }
             return pony1.PLife;
         }
         public int vidaPony_Enemigo()
         {
+            if (pony2.PLife < 0)
+            {
+                pony2.PLife = 0;
+            }
             return pony2.PLife;
         }
         public void curarse()
         {
+           
             pony1.PLife += 10;
+
         }
 
         public void curarse_Enemigo()
         {
+            if (pony2.PTipo == "pegaso")
+            {
+                pony2.PLife += 25;
+            }
             pony2.PLife += 10;
         }
     }

@@ -29,13 +29,18 @@ namespace PoekmonV1
 
         private void btnAttack_Click(object sender, EventArgs e)
         {
-            ponys.attack();
-            pbrFoesLife.Value = ponys.vidaPony_Enemigo();
-            timer1.Enabled = true;
-            btnAttack.Enabled = false;
-            btnDefend.Enabled = false;
-            btnHeal.Enabled = false;
-            txtActions.Text = "You deal Damage";
+            
+         
+          
+                ponys.attack();
+                pbrFoesLife.Value = ponys.vidaPony_Enemigo();
+                timer1.Enabled = true;
+                btnAttack.Enabled = false;
+                btnDefend.Enabled = false;
+                btnHeal.Enabled = false;
+                txtActions.Text = "You deal Damage";
+            
+            
 
 
         }
@@ -111,11 +116,22 @@ namespace PoekmonV1
                 if (randomNumber == 3 && pbrFoesLife.Value < 85)
                 {
                     ponys.curarse_Enemigo();
-                    pbrFoesLife.Value = ponys.vidaPony_Enemigo();
-                    btnAttack.Enabled = true;
-                    btnDefend.Enabled = true;
-                    btnHeal.Enabled = true;
-                    txtFoesActions.Text = "Pony2 uses Heal";
+                    if (pbrFoesLife.Value >= 75)
+                    {
+                        pbrFoesLife.Value = 100;
+                        btnAttack.Enabled = true;
+                        btnDefend.Enabled = true;
+                        btnHeal.Enabled = true;
+                        txtFoesActions.Text = "Pony2 uses Heal";
+                    }
+                    else
+                    {
+                        pbrFoesLife.Value = ponys.vidaPony_Enemigo();
+                        btnAttack.Enabled = true;
+                        btnDefend.Enabled = true;
+                        btnHeal.Enabled = true;
+                        txtFoesActions.Text = "Pony2 uses Heal";
+                    }
 
                 }
                

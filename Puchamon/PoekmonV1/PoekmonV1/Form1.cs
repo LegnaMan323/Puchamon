@@ -18,7 +18,7 @@ namespace PoekmonV1
 
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
-            pctPokePick2.ImageLocation = "D:/David/Documents/UAD/5to/D-UI/Proto-TypeJuan/PoekmonV1/Pokes/" + comboBox2.Text + ".png";
+            pctPokePick2.ImageLocation = "D:\\Ponys\\Puchamon\\Puchamon\\PoekmonV1\\Pokes" + comboBox2.Text + ".png";
             if(comboBox2.Text == "Pony1")
             {
               //  ponys.Pony1();
@@ -31,7 +31,7 @@ namespace PoekmonV1
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            pctPokePick1.ImageLocation = "D:/David/Documents/UAD/5to/D-UI/Proto-TypeJuan/PoekmonV1/Pokes/" + comboBox1.Text + ".png";
+            pctPokePick1.ImageLocation = "D:\\Ponys\\Puchamon\\Puchamon\\PoekmonV1\\Pokes" + comboBox1.Text + ".png";
             if (comboBox1.Text == "Pony1")
             {
                // ponys.Pony1();
