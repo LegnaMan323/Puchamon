@@ -26,6 +26,6 @@ namespace PoekmonV1
 
     }
 
-    IPuchamon Pony1 
+    //IPuchamon Pony1 
 
 }
