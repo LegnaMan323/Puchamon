@@ -28,10 +28,6 @@ namespace PoekmonV1
 
     }
 
-<<<<<<< HEAD
-    
-=======
-    //IPuchamon Pony1 
->>>>>>> d8ed764b09ae424519257605f53c43c53e6789e2
+
 
 }
