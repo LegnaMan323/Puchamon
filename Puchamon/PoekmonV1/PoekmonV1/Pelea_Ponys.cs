@@ -14,13 +14,23 @@ namespace PoekmonV1
         public void Ponys_define()
         {
             pony1.PAtk = 15;
+            pony1.PName = "Vellito";
             pony2.PAtk = 15;
+            pony2.PName = "Burbuja";
 
             pony1.PDef = 5;
             pony2.PDef = 5;
 
             pony2.PLife = 100;
             pony1.PLife = 100;
+        }
+        public string P1name()
+        {
+            return pony1.PName;  
+        }
+        public string P2name()
+        {
+            return pony2.PName;
         }
 
         public void attack()

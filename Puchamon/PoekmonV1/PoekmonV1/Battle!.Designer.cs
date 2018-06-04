@@ -182,6 +182,7 @@
             this.label1.Size = new System.Drawing.Size(52, 17);
             this.label1.TabIndex = 13;
             this.label1.Text = "Pony 2";
+        
             // 
             // btnHeal
             // 

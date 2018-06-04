@@ -23,6 +23,8 @@ namespace PoekmonV1
             ponys.Ponys_define();
             pbrFoesLife.Value = ponys.vidaPony_Enemigo();
             pbrYourLife.Value = ponys.vidaPony();
+            lblNameu.Text = ponys.P1name();
+            label1.Text = ponys.P2name();
         }
 
         private void btnAttack_Click(object sender, EventArgs e)
@@ -132,6 +134,7 @@ namespace PoekmonV1
                     Form1 newGame = new Form1();
                     newGame.Show();
                 }
+
             }
         }
 
@@ -141,6 +144,7 @@ namespace PoekmonV1
             Form1 newGame = new Form1();
             newGame.Show();
         }
+
         
     }
 }
