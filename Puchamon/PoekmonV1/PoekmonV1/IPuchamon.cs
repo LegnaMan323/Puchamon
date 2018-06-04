@@ -6,9 +6,26 @@ using System.Threading.Tasks;
 
 namespace PoekmonV1
 {
-    class IPuchamon
+    class Puchamon : IPony
     {
+     public string PName { get; set; }
+     public string PTipo { get; set; }
 
+     public int PLife { get; set; }
+     public int PAtk { get; set; }
+     public int PDef { get; set; }
+
+     public void Attack()
+        { }
+     public void Heal()
+        { }
+     public void Defend()
+        { }
+     public void run()
+        { }
 
     }
+
+    IPuchamon Pony1 
+
 }

@@ -11,9 +11,9 @@ namespace PoekmonV1
         string PName { get; set; }
         string PTipo { get; set; }
 
-        public int pLife { get; set; }
-        public int pAtk { get; set; }
-        public int pDef { get; set; }
+        int PLife { get; set; }
+        int PAtk { get; set; }
+        int PDef { get; set; }
 
         void Attack();
         void Heal();

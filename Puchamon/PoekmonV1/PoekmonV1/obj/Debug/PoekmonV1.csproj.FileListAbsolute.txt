@@ -17,3 +17,13 @@ D:\David\Documents\UAD\5to\D-UI\Proto-TypeJuan\PoekmonV1\PoekmonV1\obj\Debug\Poe
 D:\David\Documents\UAD\5to\D-UI\Proto-TypeJuan\PoekmonV1\PoekmonV1\obj\Debug\PoekmonV1.exe
 D:\David\Documents\UAD\5to\D-UI\Proto-TypeJuan\PoekmonV1\PoekmonV1\obj\Debug\PoekmonV1.pdb
 D:\David\Documents\UAD\5to\D-UI\Proto-TypeJuan\PoekmonV1\PoekmonV1\obj\Debug\PoekmonV1.Battle_.resources
+C:\Users\David\Documents\GitHub\Puchamon\Puchamon\PoekmonV1\PoekmonV1\obj\Debug\PoekmonV1.csprojResolveAssemblyReference.cache
+C:\Users\David\Documents\GitHub\Puchamon\Puchamon\PoekmonV1\PoekmonV1\obj\Debug\PoekmonV1.Battle_.resources
+C:\Users\David\Documents\GitHub\Puchamon\Puchamon\PoekmonV1\PoekmonV1\obj\Debug\PoekmonV1.Form1.resources
+C:\Users\David\Documents\GitHub\Puchamon\Puchamon\PoekmonV1\PoekmonV1\obj\Debug\PoekmonV1.Properties.Resources.resources
+C:\Users\David\Documents\GitHub\Puchamon\Puchamon\PoekmonV1\PoekmonV1\obj\Debug\PoekmonV1.csproj.GenerateResource.Cache
+C:\Users\David\Documents\GitHub\Puchamon\Puchamon\PoekmonV1\PoekmonV1\obj\Debug\PoekmonV1.exe
+C:\Users\David\Documents\GitHub\Puchamon\Puchamon\PoekmonV1\PoekmonV1\obj\Debug\PoekmonV1.pdb
+C:\Users\David\Documents\GitHub\Puchamon\Puchamon\PoekmonV1\PoekmonV1\bin\Debug\PoekmonV1.exe.config
+C:\Users\David\Documents\GitHub\Puchamon\Puchamon\PoekmonV1\PoekmonV1\bin\Debug\PoekmonV1.exe
+C:\Users\David\Documents\GitHub\Puchamon\Puchamon\PoekmonV1\PoekmonV1\bin\Debug\PoekmonV1.pdb
