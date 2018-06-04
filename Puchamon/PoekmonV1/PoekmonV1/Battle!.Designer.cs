@@ -38,8 +38,6 @@
             this.btnAttack = new System.Windows.Forms.Button();
             this.btnDefend = new System.Windows.Forms.Button();
             this.btnRun = new System.Windows.Forms.Button();
-            this.cbxObjects = new System.Windows.Forms.ComboBox();
-            this.pctBGBattle = new System.Windows.Forms.PictureBox();
             this.pctTextFrame = new System.Windows.Forms.PictureBox();
             this.txtFoesActions = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -49,7 +47,6 @@
             this.pctObjs = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pctPokeFight1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctFoePokeF)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pctBGBattle)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctTextFrame)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctObjs)).BeginInit();
             this.SuspendLayout();
@@ -67,7 +64,6 @@
             this.pctPokeFight1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pctPokeFight1.TabIndex = 0;
             this.pctPokeFight1.TabStop = false;
-            this.pctPokeFight1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // pctFoePokeF
             // 
@@ -133,7 +129,6 @@
             this.btnAttack.TabIndex = 0;
             this.btnAttack.Text = "Attack";
             this.btnAttack.UseVisualStyleBackColor = true;
-            this.btnAttack.Click += new System.EventHandler(this.btnAttack_Click);
             // 
             // btnDefend
             // 
@@ -144,7 +139,6 @@
             this.btnDefend.TabIndex = 1;
             this.btnDefend.Text = "Defense";
             this.btnDefend.UseVisualStyleBackColor = true;
-            this.btnDefend.Click += new System.EventHandler(this.btnHeal_Click);
             // 
             // btnRun
             // 
@@ -155,35 +149,6 @@
             this.btnRun.TabIndex = 2;
             this.btnRun.Text = "Run like a pussy";
             this.btnRun.UseVisualStyleBackColor = true;
-            this.btnRun.Click += new System.EventHandler(this.btnDefend_Click);
-            // 
-            // cbxObjects
-            // 
-            this.cbxObjects.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.cbxObjects.FormattingEnabled = true;
-            this.cbxObjects.Items.AddRange(new object[] {
-            "None",
-            "Potion1",
-            "Masterball",
-            "Shotgun"});
-            this.cbxObjects.Location = new System.Drawing.Point(309, 72);
-            this.cbxObjects.Name = "cbxObjects";
-            this.cbxObjects.Size = new System.Drawing.Size(121, 24);
-            this.cbxObjects.TabIndex = 3;
-            this.cbxObjects.SelectedIndexChanged += new System.EventHandler(this.cbxObjects_SelectedIndexChanged);
-            // 
-            // pctBGBattle
-            // 
-            this.pctBGBattle.BackColor = System.Drawing.SystemColors.Window;
-            this.pctBGBattle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pctBGBattle.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pctBGBattle.Image = ((System.Drawing.Image)(resources.GetObject("pctBGBattle.Image")));
-            this.pctBGBattle.Location = new System.Drawing.Point(0, 0);
-            this.pctBGBattle.Name = "pctBGBattle";
-            this.pctBGBattle.Size = new System.Drawing.Size(482, 403);
-            this.pctBGBattle.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pctBGBattle.TabIndex = 10;
-            this.pctBGBattle.TabStop = false;
             // 
             // pctTextFrame
             // 
@@ -225,7 +190,6 @@
             this.btnHeal.TabIndex = 1;
             this.btnHeal.Text = "Heal";
             this.btnHeal.UseVisualStyleBackColor = true;
-            this.btnHeal.Click += new System.EventHandler(this.btnHeal_Click_1);
             // 
             // txtHp1
             // 
@@ -277,7 +241,6 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtFoesActions);
             this.Controls.Add(this.pctFoePokeF);
-            this.Controls.Add(this.cbxObjects);
             this.Controls.Add(this.btnRun);
             this.Controls.Add(this.btnDefend);
             this.Controls.Add(this.btnAttack);
@@ -288,7 +251,6 @@
             this.Controls.Add(this.pctPokeFight1);
             this.Controls.Add(this.pctObjs);
             this.Controls.Add(this.pctTextFrame);
-            this.Controls.Add(this.pctBGBattle);
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimumSize = new System.Drawing.Size(500, 450);
@@ -297,7 +259,6 @@
             this.Text = "Battle!";
             ((System.ComponentModel.ISupportInitialize)(this.pctPokeFight1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctFoePokeF)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pctBGBattle)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctTextFrame)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctObjs)).EndInit();
             this.ResumeLayout(false);
@@ -316,8 +277,6 @@
         private System.Windows.Forms.Button btnAttack;
         private System.Windows.Forms.Button btnDefend;
         private System.Windows.Forms.Button btnRun;
-        private System.Windows.Forms.ComboBox cbxObjects;
-        private System.Windows.Forms.PictureBox pctBGBattle;
         private System.Windows.Forms.PictureBox pctTextFrame;
         private System.Windows.Forms.TextBox txtFoesActions;
         private System.Windows.Forms.Label label1;
