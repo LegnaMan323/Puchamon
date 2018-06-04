@@ -94,22 +94,19 @@
             // 
             this.pbrFoesLife.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.pbrFoesLife.Location = new System.Drawing.Point(330, 366);
-            this.pbrFoesLife.Maximum = 30;
             this.pbrFoesLife.Name = "pbrFoesLife";
             this.pbrFoesLife.Size = new System.Drawing.Size(100, 23);
-            this.pbrFoesLife.Step = 7;
             this.pbrFoesLife.TabIndex = 3;
-            this.pbrFoesLife.Value = 30;
+            this.pbrFoesLife.Value = 100;
             // 
             // pbrYourLife
             // 
             this.pbrYourLife.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.pbrYourLife.Location = new System.Drawing.Point(61, 366);
-            this.pbrYourLife.Maximum = 30;
             this.pbrYourLife.Name = "pbrYourLife";
             this.pbrYourLife.Size = new System.Drawing.Size(100, 23);
             this.pbrYourLife.TabIndex = 4;
-            this.pbrYourLife.Value = 30;
+            this.pbrYourLife.Value = 100;
             // 
             // txtActions
             // 
@@ -129,6 +126,7 @@
             this.btnAttack.TabIndex = 0;
             this.btnAttack.Text = "Attack";
             this.btnAttack.UseVisualStyleBackColor = true;
+            this.btnAttack.Click += new System.EventHandler(this.btnAttack_Click);
             // 
             // btnDefend
             // 
@@ -139,6 +137,7 @@
             this.btnDefend.TabIndex = 1;
             this.btnDefend.Text = "Defense";
             this.btnDefend.UseVisualStyleBackColor = true;
+            this.btnDefend.Click += new System.EventHandler(this.btnDefend_Click);
             // 
             // btnRun
             // 
@@ -190,6 +189,7 @@
             this.btnHeal.TabIndex = 1;
             this.btnHeal.Text = "Heal";
             this.btnHeal.UseVisualStyleBackColor = true;
+            this.btnHeal.Click += new System.EventHandler(this.btnHeal_Click);
             // 
             // txtHp1
             // 

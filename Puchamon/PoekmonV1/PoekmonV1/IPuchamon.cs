@@ -14,18 +14,8 @@ namespace PoekmonV1
      public int PLife { get; set; }
      public int PAtk { get; set; }
      public int PDef { get; set; }
-
-     public void Attack()
-        { }
-     public void Heal()
-        { }
-     public void Defend()
-        { }
-     public void run()
-        { }
-
     }
 
-    //IPuchamon Pony1 
+    
 
 }
