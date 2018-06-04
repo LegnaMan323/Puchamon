@@ -27,3 +27,13 @@ C:\Users\David\Documents\GitHub\Puchamon\Puchamon\PoekmonV1\PoekmonV1\obj\Debug\
 C:\Users\David\Documents\GitHub\Puchamon\Puchamon\PoekmonV1\PoekmonV1\bin\Debug\PoekmonV1.exe.config
 C:\Users\David\Documents\GitHub\Puchamon\Puchamon\PoekmonV1\PoekmonV1\bin\Debug\PoekmonV1.exe
 C:\Users\David\Documents\GitHub\Puchamon\Puchamon\PoekmonV1\PoekmonV1\bin\Debug\PoekmonV1.pdb
+D:\Ponys\Puchamon\Puchamon\PoekmonV1\PoekmonV1\obj\Debug\PoekmonV1.csprojResolveAssemblyReference.cache
+D:\Ponys\Puchamon\Puchamon\PoekmonV1\PoekmonV1\obj\Debug\PoekmonV1.Battle_.resources
+D:\Ponys\Puchamon\Puchamon\PoekmonV1\PoekmonV1\obj\Debug\PoekmonV1.Form1.resources
+D:\Ponys\Puchamon\Puchamon\PoekmonV1\PoekmonV1\obj\Debug\PoekmonV1.Properties.Resources.resources
+D:\Ponys\Puchamon\Puchamon\PoekmonV1\PoekmonV1\obj\Debug\PoekmonV1.csproj.GenerateResource.Cache
+D:\Ponys\Puchamon\Puchamon\PoekmonV1\PoekmonV1\bin\Debug\PoekmonV1.exe.config
+D:\Ponys\Puchamon\Puchamon\PoekmonV1\PoekmonV1\bin\Debug\PoekmonV1.exe
+D:\Ponys\Puchamon\Puchamon\PoekmonV1\PoekmonV1\bin\Debug\PoekmonV1.pdb
+D:\Ponys\Puchamon\Puchamon\PoekmonV1\PoekmonV1\obj\Debug\PoekmonV1.exe
+D:\Ponys\Puchamon\Puchamon\PoekmonV1\PoekmonV1\obj\Debug\PoekmonV1.pdb
