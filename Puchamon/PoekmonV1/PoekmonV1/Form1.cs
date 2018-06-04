@@ -17,6 +17,14 @@ namespace PoekmonV1
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
             pctPokePick2.ImageLocation = "D:/David/Documents/UAD/5to/D-UI/Proto-TypeJuan/PoekmonV1/Pokes/" + comboBox2.Text + ".png";
+            if(comboBox2.Text == "Pony1")
+            {
+             //   DefineP1
+            }
+            if(comboBox2.Text == "Pony2")
+            {
+
+            }
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)

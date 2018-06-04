@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Battle_));
             this.pctPokeFight1 = new System.Windows.Forms.PictureBox();
             this.pctFoePokeF = new System.Windows.Forms.PictureBox();
@@ -45,6 +46,7 @@
             this.txtHp1 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.pctObjs = new System.Windows.Forms.PictureBox();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pctPokeFight1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctFoePokeF)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctTextFrame)).BeginInit();
@@ -64,7 +66,6 @@
             this.pctPokeFight1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pctPokeFight1.TabIndex = 0;
             this.pctPokeFight1.TabStop = false;
-            this.pctPokeFight1.Click += new System.EventHandler(this.pctPokeFight1_Click);
             // 
             // pctFoePokeF
             // 
@@ -95,22 +96,19 @@
             // 
             this.pbrFoesLife.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.pbrFoesLife.Location = new System.Drawing.Point(330, 366);
-            this.pbrFoesLife.Maximum = 30;
             this.pbrFoesLife.Name = "pbrFoesLife";
             this.pbrFoesLife.Size = new System.Drawing.Size(100, 23);
-            this.pbrFoesLife.Step = 7;
             this.pbrFoesLife.TabIndex = 3;
-            this.pbrFoesLife.Value = 30;
+            this.pbrFoesLife.Value = 100;
             // 
             // pbrYourLife
             // 
             this.pbrYourLife.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.pbrYourLife.Location = new System.Drawing.Point(61, 366);
-            this.pbrYourLife.Maximum = 30;
             this.pbrYourLife.Name = "pbrYourLife";
             this.pbrYourLife.Size = new System.Drawing.Size(100, 23);
             this.pbrYourLife.TabIndex = 4;
-            this.pbrYourLife.Value = 30;
+            this.pbrYourLife.Value = 100;
             // 
             // txtActions
             // 
@@ -130,6 +128,7 @@
             this.btnAttack.TabIndex = 0;
             this.btnAttack.Text = "Attack";
             this.btnAttack.UseVisualStyleBackColor = true;
+            this.btnAttack.Click += new System.EventHandler(this.btnAttack_Click);
             // 
             // btnDefend
             // 
@@ -140,6 +139,7 @@
             this.btnDefend.TabIndex = 1;
             this.btnDefend.Text = "Defense";
             this.btnDefend.UseVisualStyleBackColor = true;
+            this.btnDefend.Click += new System.EventHandler(this.btnDefend_Click);
             // 
             // btnRun
             // 
@@ -150,6 +150,7 @@
             this.btnRun.TabIndex = 2;
             this.btnRun.Text = "Run like a pussy";
             this.btnRun.UseVisualStyleBackColor = true;
+            this.btnRun.Click += new System.EventHandler(this.btnRun_Click);
             // 
             // pctTextFrame
             // 
@@ -191,6 +192,7 @@
             this.btnHeal.TabIndex = 1;
             this.btnHeal.Text = "Heal";
             this.btnHeal.UseVisualStyleBackColor = true;
+            this.btnHeal.Click += new System.EventHandler(this.btnHeal_Click);
             // 
             // txtHp1
             // 
@@ -227,6 +229,11 @@
             this.pctObjs.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pctObjs.TabIndex = 16;
             this.pctObjs.TabStop = false;
+            // 
+            // timer1
+            // 
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Battle_
             // 
@@ -285,5 +292,6 @@
         private System.Windows.Forms.TextBox txtHp1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.PictureBox pctObjs;
+        private System.Windows.Forms.Timer timer1;
     }
 }

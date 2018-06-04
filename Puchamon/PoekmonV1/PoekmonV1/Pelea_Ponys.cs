@@ -8,8 +8,8 @@ namespace PoekmonV1
 {
     class Pelea_Ponys : Puchamon
     {
-        Puchamon pony1;
-        Puchamon pony2;
+        Puchamon pony1 = new Puchamon();
+        Puchamon pony2 = new Puchamon();
 
         public void Ponys_define()
         {
@@ -26,13 +26,13 @@ namespace PoekmonV1
         public void attack()
         {
             int dañoTotal = pony1.PAtk - pony2.PDef;
-            pony2.PLife = dañoTotal;
+            pony2.PLife -= dañoTotal;
         }
 
         public void attack_Enemigo()
         {
             int dañoTotal = pony2.PAtk - pony1.PDef;
-            pony1.PLife = dañoTotal;
+            pony1.PLife -= dañoTotal;
         }
 
         public void defenderse()
@@ -45,6 +45,14 @@ namespace PoekmonV1
             pony2.PDef += 5;
         }
 
+        public int vidaPony()
+        {
+            return pony1.PLife;
+        }
+        public int vidaPony_Enemigo()
+        {
+            return pony2.PLife;
+        }
         public void curarse()
         {
             pony1.PLife += 10;

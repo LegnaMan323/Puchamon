@@ -15,9 +15,5 @@ namespace PoekmonV1
         int PAtk { get; set; }
         int PDef { get; set; }
 
-        void Attack();
-        void Heal();
-        void Defend();
-        void run();
     }
 }
