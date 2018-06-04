@@ -29,6 +29,11 @@ namespace PoekmonV1
 
         private void btnAttack_Click(object sender, EventArgs e)
         {
+            if (pbrFoesLife.Value == 0)
+            {
+                MessageBox.Show("You Win!");
+                
+            }
             ponys.attack();
             pbrFoesLife.Value = ponys.vidaPony_Enemigo();
             timer1.Enabled = true;
@@ -120,7 +125,7 @@ namespace PoekmonV1
                 }
                
 
-                if (pbrFoesLife.Value == 0 || pbrYourLife.Value == 0)
+                if (pbrFoesLife.Value == 0 )
                 {
                     MessageBox.Show("You Win!");
                     this.Hide();
