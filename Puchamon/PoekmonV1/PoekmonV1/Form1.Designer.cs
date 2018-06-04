@@ -72,12 +72,12 @@
             // txtPokes1
             // 
             this.txtPokes1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtPokes1.Font = new System.Drawing.Font("Arial Unicode MS", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPokes1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPokes1.Location = new System.Drawing.Point(23, 44);
             this.txtPokes1.Name = "txtPokes1";
             this.txtPokes1.ReadOnly = true;
             this.txtPokes1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.txtPokes1.Size = new System.Drawing.Size(100, 18);
+            this.txtPokes1.Size = new System.Drawing.Size(100, 16);
             this.txtPokes1.TabIndex = 4;
             this.txtPokes1.Text = "Your Poke";
             this.txtPokes1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -86,11 +86,11 @@
             // 
             this.txtPoke2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.txtPoke2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtPoke2.Font = new System.Drawing.Font("Arial Unicode MS", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPoke2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPoke2.Location = new System.Drawing.Point(362, 41);
             this.txtPoke2.Name = "txtPoke2";
             this.txtPoke2.ReadOnly = true;
-            this.txtPoke2.Size = new System.Drawing.Size(100, 18);
+            this.txtPoke2.Size = new System.Drawing.Size(100, 16);
             this.txtPoke2.TabIndex = 4;
             this.txtPoke2.Text = "Foes Poke";
             this.txtPoke2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;

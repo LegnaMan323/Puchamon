@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Battle_));
             this.pctPokeFight1 = new System.Windows.Forms.PictureBox();
             this.pctFoePokeF = new System.Windows.Forms.PictureBox();
@@ -45,6 +46,7 @@
             this.txtHp1 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.pctObjs = new System.Windows.Forms.PictureBox();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pctPokeFight1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctFoePokeF)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctTextFrame)).BeginInit();
@@ -227,6 +229,11 @@
             this.pctObjs.TabIndex = 16;
             this.pctObjs.TabStop = false;
             // 
+            // timer1
+            // 
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // Battle_
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -284,5 +291,6 @@
         private System.Windows.Forms.TextBox txtHp1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.PictureBox pctObjs;
+        private System.Windows.Forms.Timer timer1;
     }
 }
