@@ -11,19 +11,21 @@ namespace PoekmonV1
         Puchamon pony1 = new Puchamon();
         Puchamon pony2 = new Puchamon();
 
-        public void Ponys_define()
+        public void Pony1()
         {
-            pony1.PAtk = 15;
-            pony1.PName = "Vellito";
-            pony2.PAtk = 15;
+            pony2.PAtk = 25;
             pony2.PName = "Burbuja";
-
-            pony1.PDef = 5;
             pony2.PDef = 5;
-
             pony2.PLife = 100;
+        }
+        public void Pony2()
+        {
+            pony1.PAtk = 25;
+            pony1.PName = "Vellito";
+            pony1.PDef = 5;
             pony1.PLife = 100;
         }
+
         public string P1name()
         {
             return pony1.PName;  

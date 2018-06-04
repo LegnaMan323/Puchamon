@@ -15,25 +15,6 @@ namespace PoekmonV1
         public int PAtk { get; set; }
         public int PDef { get; set; }
 
-        public void Attack()
-        { }
-        public void Heal()
-        { }
-        public void Defend()
-        { }
-        public void Run()
-        {
-
-        }
-
-      /*  Puchamon Pony1 = new Puchamon();
-        public void DefineP1()
-        {
-            Pony1.PName = "Bombon";
-            Pony1.PLife = 30;
-            Pony1.PAtk = 15;
-            Pony1.PDef = 15;
-        }*/
     }
 
            

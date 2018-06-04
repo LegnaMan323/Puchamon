@@ -19,8 +19,8 @@ namespace PoekmonV1
         public Battle_()
         {
             InitializeComponent();
-
-            ponys.Ponys_define();
+            ponys.Pony1();
+            ponys.Pony2();
             pbrFoesLife.Value = ponys.vidaPony_Enemigo();
             pbrYourLife.Value = ponys.vidaPony();
             lblNameu.Text = ponys.P1name();
@@ -140,6 +140,7 @@ namespace PoekmonV1
 
         private void btnRun_Click(object sender, EventArgs e)
         {
+
             this.Hide();
             Form1 newGame = new Form1();
             newGame.Show();
