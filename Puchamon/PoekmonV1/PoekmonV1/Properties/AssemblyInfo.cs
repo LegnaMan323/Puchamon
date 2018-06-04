@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // La información general de un ensamblado se controla mediante el siguiente 
 // conjunto de atributos. Cambie estos valores de atributo para modificar la información
 // asociada con un ensamblado.
-[assembly: AssemblyTitle("Puchamon")]
+[assembly: AssemblyTitle("PoekmonV1")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Puchamon")]
+[assembly: AssemblyProduct("PoekmonV1")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // El siguiente GUID sirve como id. de typelib si este proyecto se expone a COM.
-[assembly: Guid("30e56f1f-1778-43e3-8d67-2f5bb1ae4457")]
+[assembly: Guid("a4d6fc4e-04e4-46d3-ab41-c0737b73d254")]
 
 // La información de versión de un ensamblado consta de los cuatro valores siguientes:
 //

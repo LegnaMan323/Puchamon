@@ -1,0 +1,19 @@
+D:\David\Documents\UAD\5to\D-UI\Proto-Type Juan\PoekmonV1\PoekmonV1\bin\Debug\PoekmonV1.exe.config
+D:\David\Documents\UAD\5to\D-UI\Proto-Type Juan\PoekmonV1\PoekmonV1\bin\Debug\PoekmonV1.exe
+D:\David\Documents\UAD\5to\D-UI\Proto-Type Juan\PoekmonV1\PoekmonV1\bin\Debug\PoekmonV1.pdb
+D:\David\Documents\UAD\5to\D-UI\Proto-Type Juan\PoekmonV1\PoekmonV1\obj\Debug\PoekmonV1.csprojResolveAssemblyReference.cache
+D:\David\Documents\UAD\5to\D-UI\Proto-Type Juan\PoekmonV1\PoekmonV1\obj\Debug\PoekmonV1.Form1.resources
+D:\David\Documents\UAD\5to\D-UI\Proto-Type Juan\PoekmonV1\PoekmonV1\obj\Debug\PoekmonV1.Properties.Resources.resources
+D:\David\Documents\UAD\5to\D-UI\Proto-Type Juan\PoekmonV1\PoekmonV1\obj\Debug\PoekmonV1.csproj.GenerateResource.Cache
+D:\David\Documents\UAD\5to\D-UI\Proto-Type Juan\PoekmonV1\PoekmonV1\obj\Debug\PoekmonV1.exe
+D:\David\Documents\UAD\5to\D-UI\Proto-Type Juan\PoekmonV1\PoekmonV1\obj\Debug\PoekmonV1.pdb
+D:\David\Documents\UAD\5to\D-UI\Proto-TypeJuan\PoekmonV1\PoekmonV1\bin\Debug\PoekmonV1.exe.config
+D:\David\Documents\UAD\5to\D-UI\Proto-TypeJuan\PoekmonV1\PoekmonV1\bin\Debug\PoekmonV1.exe
+D:\David\Documents\UAD\5to\D-UI\Proto-TypeJuan\PoekmonV1\PoekmonV1\bin\Debug\PoekmonV1.pdb
+D:\David\Documents\UAD\5to\D-UI\Proto-TypeJuan\PoekmonV1\PoekmonV1\obj\Debug\PoekmonV1.csprojResolveAssemblyReference.cache
+D:\David\Documents\UAD\5to\D-UI\Proto-TypeJuan\PoekmonV1\PoekmonV1\obj\Debug\PoekmonV1.Form1.resources
+D:\David\Documents\UAD\5to\D-UI\Proto-TypeJuan\PoekmonV1\PoekmonV1\obj\Debug\PoekmonV1.Properties.Resources.resources
+D:\David\Documents\UAD\5to\D-UI\Proto-TypeJuan\PoekmonV1\PoekmonV1\obj\Debug\PoekmonV1.csproj.GenerateResource.Cache
+D:\David\Documents\UAD\5to\D-UI\Proto-TypeJuan\PoekmonV1\PoekmonV1\obj\Debug\PoekmonV1.exe
+D:\David\Documents\UAD\5to\D-UI\Proto-TypeJuan\PoekmonV1\PoekmonV1\obj\Debug\PoekmonV1.pdb
+D:\David\Documents\UAD\5to\D-UI\Proto-TypeJuan\PoekmonV1\PoekmonV1\obj\Debug\PoekmonV1.Battle_.resources

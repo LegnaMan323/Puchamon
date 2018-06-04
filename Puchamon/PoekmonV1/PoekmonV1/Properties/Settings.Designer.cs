@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Puchamon.Properties
+namespace PoekmonV1.Properties
 {
 
 

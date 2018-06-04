@@ -1,9 +1,0 @@
-C:\Users\David\Documents\GitHub\Puchamon\Puchamon\Puchamon\bin\Debug\Puchamon.exe.config
-C:\Users\David\Documents\GitHub\Puchamon\Puchamon\Puchamon\bin\Debug\Puchamon.exe
-C:\Users\David\Documents\GitHub\Puchamon\Puchamon\Puchamon\bin\Debug\Puchamon.pdb
-C:\Users\David\Documents\GitHub\Puchamon\Puchamon\Puchamon\obj\Debug\Puchamon.csprojResolveAssemblyReference.cache
-C:\Users\David\Documents\GitHub\Puchamon\Puchamon\Puchamon\obj\Debug\Puchamon.Ponymon.resources
-C:\Users\David\Documents\GitHub\Puchamon\Puchamon\Puchamon\obj\Debug\Puchamon.Properties.Resources.resources
-C:\Users\David\Documents\GitHub\Puchamon\Puchamon\Puchamon\obj\Debug\Puchamon.csproj.GenerateResource.Cache
-C:\Users\David\Documents\GitHub\Puchamon\Puchamon\Puchamon\obj\Debug\Puchamon.exe
-C:\Users\David\Documents\GitHub\Puchamon\Puchamon\Puchamon\obj\Debug\Puchamon.pdb
