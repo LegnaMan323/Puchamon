@@ -64,6 +64,7 @@
             this.pctPokeFight1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pctPokeFight1.TabIndex = 0;
             this.pctPokeFight1.TabStop = false;
+            this.pctPokeFight1.Click += new System.EventHandler(this.pctPokeFight1_Click);
             // 
             // pctFoePokeF
             // 

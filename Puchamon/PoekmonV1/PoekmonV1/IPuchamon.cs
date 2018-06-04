@@ -22,10 +22,12 @@ namespace PoekmonV1
      public void Defend()
         { }
      public void run()
-        { }
+        {
+         
+        }
 
     }
 
-    IPuchamon Pony1 
+    
 
 }

@@ -19,6 +19,10 @@ namespace PoekmonV1
         {
             InitializeComponent();
         }
-        
+
+        private void pctPokeFight1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
